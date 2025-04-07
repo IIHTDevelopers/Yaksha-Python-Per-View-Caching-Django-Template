@@ -1,0 +1,98 @@
+Forbidden: /
+Forbidden: /
+Forbidden: /
+Forbidden: /
+Forbidden: /
+Forbidden: /
+Forbidden: /
+Forbidden: /
+Forbidden: /
+Forbidden: /
+Forbidden: /
+Forbidden: /
+Forbidden: /
+Forbidden: /
+Forbidden: /
+Forbidden: /
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/999/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Forbidden: /post/1/
+Internal Server Error: /post/999/
+Traceback (most recent call last):
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/shivamsri/Documents/zigsaw/django/final/question_13/solved/django_questions/library/views.py", line 9, in blog_post_detail
+    post = BlogPost.objects.get(id=post_id)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+library.models.BlogPost.DoesNotExist: BlogPost matching query does not exist.
+Internal Server Error: /post/999/
+Traceback (most recent call last):
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/shivamsri/Documents/zigsaw/django/final/question_13/solved/django_questions/library/views.py", line 9, in blog_post_detail
+    post = BlogPost.objects.get(id=post_id)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+library.models.BlogPost.DoesNotExist: BlogPost matching query does not exist.
+Internal Server Error: /post/999/
+Traceback (most recent call last):
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/shivamsri/Documents/zigsaw/django/final/question_13/solved/django_questions/library/views.py", line 9, in blog_post_detail
+    post = BlogPost.objects.get(id=post_id)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+library.models.BlogPost.DoesNotExist: BlogPost matching query does not exist.
+Internal Server Error: /post/999/
+Traceback (most recent call last):
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/shivamsri/Documents/zigsaw/django/final/question_13/solved/django_questions/library/views.py", line 9, in blog_post_detail
+    post = BlogPost.objects.get(id=post_id)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/shivamsri/.pyenv/versions/3.8.10/lib/python3.8/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+library.models.BlogPost.DoesNotExist: BlogPost matching query does not exist.
